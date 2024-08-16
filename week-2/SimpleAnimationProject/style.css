@@ -1,0 +1,34 @@
+body {
+    background: #9e051f;
+    display: flex;
+    justify-content: center;
+    }
+  
+  #luffy-container {
+    width: 120vh;
+    height: auto;
+    display: grid;
+    place-items: center;
+    grid-template-areas:
+      "a1 . ."
+      ". a2 ."
+      ". . a3";
+  }
+  
+  #luffy1 {
+    width: 33vh;
+    height: auto;
+    grid-area: a1;
+  }
+  
+  #luffy2 {
+    width: 33vh;
+    height: auto;
+    grid-area: a2;
+  }
+  
+  #luffy3 {
+    width: 33vh;
+    height: auto;
+    grid-area: a3;
+  }
